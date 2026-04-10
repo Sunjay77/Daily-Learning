@@ -1,7 +1,8 @@
-<mark>What is Prop Drilling?<mark>
+<mark>What is Prop Drilling?
 Prop Drilling refers to the process of passing down props through multiple layers of components,
 even when some of those components do not directly use the porps.
 Prop Drilling also known as "component chaining".
+<mark>
 
 When does Porp Drilling Occurs or used?
 Prop Drilling is used when a prop needs to be passed through several layers of nested components
@@ -13,3 +14,8 @@ child components.
 [Here it is shown that GrandChildComponent has to
 access the data but parent and child do npt use it
 still the prop must sill be passed through them](./practical)
+
+
++ Complexity and Boilerplate Code
+
+Prop drilling can lead to increased complexity and boilerplate code. especially in large component trees.
