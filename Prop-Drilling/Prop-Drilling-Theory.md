@@ -1,4 +1,4 @@
-What is Prop Drilling?
+<mark>What is Prop Drilling?<mark>
 Prop Drilling refers to the process of passing down props through multiple layers of components,
 even when some of those components do not directly use the porps.
 Prop Drilling also known as "component chaining".
