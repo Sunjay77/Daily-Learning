@@ -13,7 +13,7 @@ child components.
 
 [Here it is shown that GrandChildComponent has to
 access the data but parent and child do npt use it
-still the prop must sill be passed through them](./practical)
+still the prop must sill be passed through them](../prop-drilling/Practical)
 
 
 + Complexity and Boilerplate Code
