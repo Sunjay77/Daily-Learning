@@ -41,10 +41,10 @@ Passing props through multiple levels of components can introduce performance ov
 * The Hook: const data = userContext(MyContext)
 
 - Statement Management: Libraries like Reduc, Zustand, or Recoil create a "Store" -a seprate container outside your component tree
-* If context is a teleporter, State Management is a cloud database for frontend.
+*If context is a teleporter, State Management is a cloud database for frontend.*
 
 -Render props & HOCs (The "plug-in" way): These are patterns used to share logic rather tahn just data
 
 * Render Props: A component tells its child: "I will handle the logic, you just ell me how to draw it."
 
-HOCs: A function that wraps a component to give it "superpowers"(extra props). !NOTE: In modern React, there are mostly replaced by custom hooks.
+- HOCs: A function that wraps a component to give it "superpowers"(extra props). !NOTE: In modern React, there are mostly replaced by custom hooks.
