@@ -10,9 +10,9 @@ to reach a deeply nested child component that actually needs the prop.
 Maybe when you need to fetch data from an api which needs to pass this data to multiple nested
 child components.
 
-[Here it is shown that GrandChildComponent has to
+<mark>Here it is shown that GrandChildComponent has to
 access the data but parent and child do npt use it
-still the prop must sill be passed through them](../prop-drilling/Practical/ChildComponent.js)
+still the prop must sill be passed through them </mark>
 
 
 + Complexity and Boilerplate Code
