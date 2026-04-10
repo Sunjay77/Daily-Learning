@@ -1,0 +1,1 @@
+- Here context API is used to provide and consume the data prop without having to pass it down through every component

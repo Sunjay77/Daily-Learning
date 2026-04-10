@@ -48,3 +48,9 @@ If context is a teleporter, State Management is a cloud database for frontend.
 * Render Props: A component tells its child: "I will handle the logic, you just ell me how to draw it."
 
 - HOCs: A function that wraps a component to give it "superpowers"(extra props). !NOTE: In modern React, there are mostly replaced by custom hooks.
+
+## Conclusion
+
+**Prop drilling can be seen like shortcut but it can hinder the maintainability of your code.**
+
+* Context API, State management libraries, or the power of render props, will empower yourself to build clean maintainable and scable React applications.
