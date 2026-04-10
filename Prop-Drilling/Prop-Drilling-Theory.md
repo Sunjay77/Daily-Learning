@@ -19,3 +19,10 @@ still the prop must sill be passed through them](./practical)
 + Complexity and Boilerplate Code
 
 Prop drilling can lead to increased complexity and boilerplate code. especially in large component trees.
+
+- Component Coupling
+Prop drilling can tightly couple components together, making it harder to refactor or restructure the component hierarchy without
+affecting other parts of the application.
+
+- Performance Overhead
+Passing props through multiple levels of components can introduce performance overhead, especially if the props contain large amounts of data.
