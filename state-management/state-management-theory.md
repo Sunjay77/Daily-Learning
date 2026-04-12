@@ -9,3 +9,60 @@
 - example of simple (Todo list app) primarily accepts inputted items that would eventually be added to a displayed list.
 
 **name and items hold the current value of the state variable. While setName and setItems are the function used to update the value of the state varuables**
+
+- We can add header, nav,listArea and footer components to the App component's JSX, Our root component should look like this:import { useState } from "react";
+
+export default function App() {
+      const [items, setItems] = useState([]);
+    const [name, setName] = useState(" ")
+  return (
+    <div>
+      <Header />
+      <Nav />
+      <ListArea />
+      <Footer />
+    </div>
+  );
+}
+
+The individual components with their JSX's should look like this:
+function Header() {
+  return <h2>ToDo List</h2>;
+}
+
+function Nav() {
+  return (
+    <>
+      <input type="text"/>
+      <button>Add</button>
+    </>
+  );
+}
+
+function ListArea() {
+  return (
+    <>
+      <ul>
+        <li></li>
+      </ul>
+    </>
+  );
+}
+
+function Footer() {
+  return (
+    <>
+      <p>You have items in your cart</p>
+    </>
+  );
+}
+
+# Where to use State?
+- When using state, it is important to note that there are two types of states in React deelopment:
+
+- Global State:
+These are states that are accessible to every component in the application.It is always declared and located in the root component of your app before the JSX is returned.
+
+- Local State:
+Local states refers to the internal data maintained by a component. Local states are located within the parent components in an application. They are only needed and can be accessed in the component.
+
