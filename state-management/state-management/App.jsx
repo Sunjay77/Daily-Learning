@@ -49,3 +49,4 @@ function Footer() {
 }
 
 //This is a simple representation of our Todo List. Next, we'll add some logic and make the states come to life. For now, the states reside in the App component.
+
