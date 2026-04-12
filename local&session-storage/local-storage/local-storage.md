@@ -7,5 +7,3 @@
 
 - Scope: Data shared across all windows/tabs from same origin (protocol + domain + port).
 
-- Example: Storing user theme preference (Dark/Light mode).
-
