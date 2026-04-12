@@ -26,6 +26,7 @@ export default function App() {
 }
 
 The individual components with their JSX's should look like this:
+
 function Header() {
   return <h2>ToDo List</h2>;
 }
