@@ -66,3 +66,11 @@ These are states that are accessible to every component in the application.It is
 - Local State:
 Local states refers to the internal data maintained by a component. Local states are located within the parent components in an application. They are only needed and can be accessed in the component.
 
+Using local state, components can independently change and handle their data which leads to partitioning within the application.
+
+Looking at our declared states in the Todo List app, we can say that name is a local state and items is a global state.
+
+The reasons are:
+
+Two or more components will need access to the items state.
+The name state is only needed to input item names into the items list.
